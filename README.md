@@ -5,4 +5,4 @@ OpenGL
 GLUT
 
 ##Compile Command
-g++ -o FILENAME main.cpp TagViewer.cpp
+g++ -o FILENAME main.cpp TagViewer.cpp -lgl -glu -glut
